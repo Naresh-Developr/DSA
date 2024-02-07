@@ -1,0 +1,44 @@
+Rotated array:
+
+    it contains two parts the first part of the array will be ascending/decending 
+and the next part will be inverse sort of fist array.
+
+condition for rotated array :
+
+    Rotated array always contains desecending sorted array as first part of array &&
+the second part is always in ascending
+
+so considering this, the peak element condition should be, 
+    
+    mid > mid+1  --->peak element in rotated array
+
+
+to search in Rotaed array: 
+    
+     we need to serach for two things the peak element and the bin serach to find target
+
+First step in finding peak :
+
+    run the loop until start<=end
+    chech if mid>mid+1 --> if sucess :
+
+    return mid --mid is the peak value
+
+    if not mid<start:
+    change end = mid-1 ----------> go left logic
+    else check:
+    start = mid+1   ---------------> go right logic
+
+    if the peak was not found return the len(arr)-1
+
+second step of Binary search:
+
+    In the second step we need two binary search , the left side search and the right side search
+
+    if target < start-->arr[0]:
+        binsearch(strat,end,mid = peak ,target)
+    if target >start-->arr[0]:
+        binaryserach(start,end,mid = 0,target )
+
+    perform a normal binary search for the target provided
+
