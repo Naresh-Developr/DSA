@@ -1,0 +1,41 @@
+Selection Sort
+
+like linear search in sub arrays.
+
+Worst sorting efficiency (not good) worst next to bogo sort
+
+steps:
+
+   1. find && swap
+   2. loops
+   3. optimize if possible 
+
+Steps for sorting
+
+    1. run the loop from 0th index to n-1 index [ cause the n-1 is the last element we need to sort ]
+    2. in the loop to find minimum element call the second function with necessary .
+
+    To find the small element in sub arrays need to create a function that performs the action;
+
+    create a function that takes input of arr,start and end of the sub array from the above function
+
+    store the minimum value and its index in two different variables.
+
+    to compare values run a loop in range of start and end,
+
+    if the min_value > arr[start]:
+
+         min_value = arr[i]
+         min_index = i
+      return the min index to first function to swap the values ultil the first loop breaks.
+
+   
+
+    3. if the minimum element found swap the minimum element index with the current index.
+    
+
+inter-->
+
+
+stable sort most of the time
+

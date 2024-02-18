@@ -1,0 +1,11 @@
+Three pointer method:
+
+    The three pointer alogorithm is  nothing but keeping three pointer variables like i,j,k
+pointing to the threee different arrays / list processing with the two arrays and store 
+the output in the third different array.
+
+Example :
+
+merge two sorted arrays in a different array
+
+merge two sorted arrays in same place.

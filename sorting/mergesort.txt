@@ -1,0 +1,71 @@
+MergeSort:
+
+    You should know binary search to perform MergeSort
+
+    It is a divide and conquer method
+
+    In this sort we need to go both left and right [like binary search]
+
+SudoCODE:
+
+    To deal with this problem, a list of unsorted array was given.
+
+    we are going to use recursion to solve problem.
+
+    we are going to write two function that perform two different function
+
+First function:
+
+    In this first function we are going to divide the array into each element seperates.[like merge sort diagram]
+
+    to do this write a recursive function that divides array into elements.
+
+    to do recursive set the escape condition first in this case the len(array)<1 the recursive function stops
+
+    so if len(arr)>1 the loop continues .
+
+    need to find the middle to split into first two halves  mid = len(arr)/2
+
+    the left half starts with arr[:mid] ---> index
+
+    the right half starts with arr[mid:] --- > index
+
+    then continuesly call the same first function to do it recursive for[[[ LEFT and RIGHT halfs]]]
+
+    like func(l) and func(r)
+
+    then ask for second function to merge things it needs left and rignt half values and the array to store sorted values
+
+
+Second Function:
+     
+    the second function receives the left and right halves and the array to store output
+
+    needs three indices i=0, j=0, k=0 to perform three pointer alogorithm
+
+    write the while loop condition of i<len(left) && j<len(right):
+
+    check if the left[i]>right[j]:
+                out[k] = right[j]
+                j += 1
+        else:
+                out[k] = left[i]
+                i += 1
+        after the checks needs to place k = k+1
+
+    need to verify the condition, in three pointer algorithm if one array / list completed by sorting and the pointer cannot move further,
+
+we need to add the elements in the first array in the output array cause it is already sorted  
+
+To add the remaining elements in the list [may be first or second list]
+
+write a while loop with condition of i<len(l):
+                    out[k] = left[i]
+                    i += 1
+                    k += 1
+
+                while j<len(r):
+                    out[k] = right[j]
+                    j += 1
+                    k += 1
+

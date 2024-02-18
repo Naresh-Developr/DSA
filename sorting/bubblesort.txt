@@ -1,0 +1,22 @@
+condition for bubble sort:
+
+check arr[current]>arr[current+1]:
+    
+    swap()
+
+continuously swaping elementrs to place the largest element in the last [iteration to iteration]\
+
+SUDOCODE:
+
+    run the first loop until len of the array ---> range(1,n) or range(0,n-1)
+    run the second loop until the len of the (array-1)
+    cause the loop doesnt need to check the last element cause its already sorted.
+
+    the check for the condition above, for bubble sort and swap the indices
+
+
+time complexity :
+
+N^2 times
+
+it is a stable sort.

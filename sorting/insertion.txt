@@ -1,0 +1,19 @@
+like playing rummy.
+
+
+create a function it should takes an array as a input
+
+find the length of the array and store it
+
+run a loop ultil the length of the array
+
+and run the nested loop with range of start from i to starting index 0 with step of -1 to acess it from reverse
+
+check the condition if arr[j]<arr[j-1]
+
+swap the arr[j] and arr[j-1]
+
+return the arr.
+
+
+
