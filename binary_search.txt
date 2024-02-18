@@ -1,0 +1,91 @@
+Algorithm:
+
+Ascending order:
+------------------------
+
+Get the target as input
+
+1. find the satrt middle and end of the array.
+//indices//
+start = 0
+end = len(arr)-1
+middle = start + end /2  
+
+2.Run the loop until start<=end:
+
+3. if middle > Target :
+    go right logic
+4. if middle<target:
+    go left logic
+
+
+
+
+go Right:
+
+start = middle+1
+middle  = start+end/2
+
+g0  left:
+    start = middle+1
+    end = mid-1
+
+
+For Descendind order:
+-----------------------------------
+
+1.  get the target and arry to search
+2.  run the loop until start<=end
+3.  if target==middle   ----> print the index
+4.  if target>middle:
+        go right logic
+5.  if target<middle:
+        go left logic
+
+
+go Right:
+
+end  = mid-1
+
+go Left:
+
+start = mid-1
+
+
+
+Time complexity:
+------------------------------
+
+    basically the binary search split the array into half
+    so,
+    O(N) ---> Total array (linear seach)
+    we were splitting into half
+    so N/2
+    each step of splitting performs N/2 
+    steps:
+    1. N/2 == N/2^1
+    2. (N/2)/2 = N/4 == N/2^2
+    .
+    .
+    .  
+      N/2^k
+
+    so k time the loop continues splitting to find the target 
+
+    solving Math : 
+
+    to the value of k add each side log
+
+    1.  N/2^k
+    2.  N = 2^k
+    3.  log N = log 2^k
+    4.  log N = k log2
+    5.  k = log N/log2                    //Formula log a/log b = log a^b
+    
+    6.  k = log2^N   --------------> Time complexity of Binary search
+
+
+
+
+
+
