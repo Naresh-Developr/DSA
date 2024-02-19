@@ -1,0 +1,17 @@
+Hash-Map:
+
+    The hash maps are nothing but the implementation of dictionary data type.
+
+    The hash map is a process of making a matchable data for the actual data and 
+
+store the match data in the index to access it faster.
+
+    it is  a one way operation, once hashing is done you cannot get the actual value.
+
+    To store the hashed value into the array  the [[ index to be store = hashed[int] value// size of the arr ]]
+
+hash-collision:
+
+    it nothing but the condition of  two hashes occupies the same index in the array
+
+    it a problem. to solve this make a matrix like structure to store data vertically in the array.
