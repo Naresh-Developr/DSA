@@ -1,0 +1,24 @@
+Two pointer Technique:
+
+Two pointer most of the time it will works with the sorted array.
+
+working:
+
+    place the two pointer at first index and the last index of array.
+
+    the first pointes has the lowest value and the last pointer has the largest value.  
+
+    store the target and left and right value.
+
+    while (l<r):
+
+    temp = arr[l]+arr[r]
+
+    if temp == T:
+        print the output
+        break
+    elif  temp<t:
+        l = l+1
+    elif temp>T
+        r = r-1
+    

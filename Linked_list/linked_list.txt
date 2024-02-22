@@ -1,0 +1,25 @@
+Linked List: 
+
+    The linking of multiple list is nothing but the Linked list.
+
+in this linked list all the array we used to store data is considered to be,
+node.
+
+The node only contains two spaces ,one to store data and another to stpre address of next,
+node.
+
+Array store values in continues memory allocation values,but linked list didnt store continues address.
+
+the last element address in last node is always NUll.
+
+Properties:
+
+    Non contigious location.
+    
+    Dynamic data structure [there no limit in size if we need we can create node && different data type can be stored ]
+
+Operation in LinkedList:
+
+    insertion 
+
+    Deletion

@@ -1,0 +1,40 @@
+Memory Management in Python: [stack && Heap]  ----- just info!!!
+
+    The program we wrote need some memory in our RAM
+
+    8bit = 1 byte,int 4bytes, 1 bit = 0 or 1
+    In program,
+        The program takes memory while compiling and running ,
+    after the running process the memory will be cleaned.
+
+    Inside the ram stack memory and heap memory will be created.
+
+    The Stack memory is used to function calls  ex.. recursive calls.
+
+    The global variables and objects will be stored in Heap variables.
+
+
+Lets move with a example :
+
+    a = 10
+    print(a)
+    b = 10
+
+    The value of the variable 10 will  be stored in the heap memory and it has some address like 0xa
+and the address of the variable  data in heap will be stored in the stack memory with variable name.
+    while the print statement executes the print of a searches for the address in a is avilable in heap or not 
+if available it will print the variable.
+    And coming to b the, it will chech for the presence of 10[value] in heap,if it was there assign the same address
+to the same value. 
+
+
+The python uses garbage collector to clean up the local variables inside the program.
+
+stack memory:
+
+    its nothing but the order of execution of program after the execution completes then it will be removed from the stack.
+
+Heap memory:
+ 
+    dynamic memory alloction will be stored in the heap memory.
+
