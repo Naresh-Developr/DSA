@@ -1,0 +1,25 @@
+Queue: 
+
+    Queue works on the principle of FIFO[First in First Out]
+
+    it is also a linear data structure.
+
+operations in Queue:
+
+    1. insert [enqueue]    --> works with O(1) time complexity while inserting
+    2. deletion [dequeue]  -->  works with O(1) time complexity while inserting
+    3. Front      --> function to acess the front element in queue [like top() in queue]
+    4. isempty()   --> to check queue is empty or not.
+
+Types of Queue:
+
+ 1. simple queue    --> ex.Atm
+ 2. double ended Queue  --> like mixture of stack and simple queue.[works both principles in stack and simple queue]
+ 3. circular Queue      --> it was in like circular array.
+ 4. priority Queue      --> high priority elements were kept first.
+
+Iplementation in python:
+
+1. using list as a queue
+2. directly using Queue data structure
+3. using deque // using appendleft function

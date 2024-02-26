@@ -1,0 +1,28 @@
+Satck:
+
+    stack is  a linear data structure. like array [next ater next]
+    can able to store different type od data types.
+    the stack size intialization must be done before using it [like array]
+
+    like array we store data in vertical order , the stack works on [LIFO] or [FILO].
+
+    there is no index in stack to acess elements like array, it will only work with LIFO .
+
+operations in Stack:
+
+    1. Accessing  ---> O(n) algorithm [worstcase]
+
+    2. insertion    ---> push() operation
+
+    3. deletion     ---> pop()  operation---->delete the last elment, top()---> shows the last element inserted
+
+    4. searching
+
+terms in stack:
+
+    1. stack Overflow:
+        inserting more elements than the size of the stack.
+
+    2.stack Underflow:
+        acess the elements when there is no elements in stack
+

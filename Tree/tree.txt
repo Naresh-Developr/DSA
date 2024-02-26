@@ -1,0 +1,45 @@
+Tree:
+
+    Non linear data structure [non continuous] elements are stored in hierchichal  structure 
+[like tree leaves,branches ,stemand root are connected]
+
+    In linked list one after one element was stored bunt in tree one after multiple value will
+be stored.
+
+    There is no [length] term in Tree data structure.
+
+    Instead of length we have Height and Depth in tree structure.
+
+Real_Time example:
+
+    File Explorar.
+
+Terms in Tree Structure:
+
+    [first] starting node ---> Root [likewise tree]
+
+    node after root node ---> was parent node
+
+    node after parent node ---> child node
+
+    nodes that share comman parent was---> sibling node.
+
+    the joining link between nodes was----> edge.
+
+    the node that has no child was leaf----> node.
+
+    the parent of parent nodes were ancestor.
+
+    the nodes of ancestor [sub node] were desendent nodes.
+
+Height:
+
+    The node has more number of edge from root to leaf is the height of the tree.
+
+Depth:
+
+    height for the specific node we are searching id nothing but depth.
+
+Implemeting tree structure:
+
+    Create node 
