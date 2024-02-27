@@ -1,0 +1,9 @@
+Binary Tree:
+
+    Maximun each node has two childs.  --> condition of Binary Tree
+
+Types:
+    1.Balanced Tree   ---> [Height equal] the sub nodes from left and right were equal.
+    2.Unbalanced Tree ---> [each node has atmost two child] the nodes from  left and right are unequal
+
+

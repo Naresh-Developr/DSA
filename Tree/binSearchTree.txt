@@ -1,0 +1,31 @@
+Binary Search Tree:
+
+    like sorted binary tree.
+
+    Its a special type of binary tree
+
+    it contains no duplicate value.
+
+    Highly efficiect for searching operation cause it is in arranged order.
+
+    its contains all the properties of binary tree with adiitiona; properties.
+
+    if the child node lesser than root it should be in left of the root node.
+
+    if the child node greater than root it should be in right of the root node.
+    
+    link this to binary search like in this tree the root node act as a mid[in searching] .
+
+types of Traversal:
+In-order
+pre-order
+post-order
+
+In - order Traversal:
+
+    search from left child to right child through root [subtree subtree ya].
+
+    print from left most edge to right most edge.
+
+
+

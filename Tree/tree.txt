@@ -43,3 +43,11 @@ Depth:
 Implemeting tree structure:
 
     Create node 
+
+
+Types of Tree:
+
+    normal tree
+    binary tree
+    binary search tree
+    avl tree
