@@ -1,0 +1,16 @@
+Tree Traversal Techniques:
+
+    Traversal is nothing but visiting all the nodes in tree
+
+Types:
+
+    1. In-order  --> left child node to right child through root.
+    2. Pre-order --> checks in order of current node -- left node -- right node. 
+    3. Post-order --> first left uhh next right and next current.
+
+    These three Techniques are under depth-first-search [search based on the depth of the tree][depth means from root to leaf]
+[top-to-bottom].
+
+    Breadth First Search [BFS] is based on Breadth like we search in nodes of same parent.[left-to-right]
+
+

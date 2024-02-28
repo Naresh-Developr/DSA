@@ -1,0 +1,30 @@
+Graph:
+
+    Building a network like structure through relations.
+
+    Node in Graph is Vertex, edge is the relation line between vertices.
+
+    degree --> no of edge connected to a a node.
+
+    path --> its nothing but the route of two nodes.
+
+    cycle  --> the closed edges forms a complete cyccle.
+
+
+types: 
+
+    Directed graph --> unidirected edges between Vertex
+
+    Bi-Directed  --> bi-Directed edges between Vertex
+
+    weighted Graph --> there will be values for the edges
+
+Graph is a cyclic Graph
+Tree is a acyclic graph
+
+Graph Traversal Methods:
+
+    1. Depth-First-Search
+    2. Breadth-First-Search
+    
+
