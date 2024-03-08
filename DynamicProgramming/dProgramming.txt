@@ -1,0 +1,9 @@
+Dynamic programming:
+
+    its nothing but solving problems ,by splitting problems into sub-problems
+and solve all the sub-problems to solve the big problem.
+
+Types:
+    Bottom-up -- Tablulation
+    Top-Down  -- memoization --> is nothing but taking the already solved answer,and use it to solve current same problem.
+

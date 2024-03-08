@@ -12,6 +12,9 @@ stack.pop()   #deletion operation
 
 print(stack)
 
+#-----------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
+
 #implementing Satck with dequeue:
 
 from collections import deque  # to use dequeue.

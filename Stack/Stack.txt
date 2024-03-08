@@ -1,7 +1,7 @@
 Satck:
 
     stack is  a linear data structure. like array [next ater next]
-    can able to store different type od data types.
+    can able to store different type of data types.
     the stack size intialization must be done before using it [like array]
 
     like array we store data in vertical order , the stack works on [LIFO] or [FILO].
