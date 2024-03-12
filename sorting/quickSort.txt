@@ -1,0 +1,14 @@
+Quick Sort: 
+
+    it most likely Merge sorting , works on Divide and conquer algorithm
+
+steps:
+1. its nothing but making the array short.
+
+2. pivot element is the random number, talking the random number and arrange the smaller elements,
+compred to pivot element in the left and larger in the right.
+
+3. again again do the same for left and right side
+
+4. in the next steps write the pivot elements first and choose another pivot from remaining.
+

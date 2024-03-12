@@ -1,0 +1,16 @@
+Trie:
+
+trie --> retrival [get].
+
+its like tree data structure.
+
+like autocomplete .
+
+its is used to store words.
+
+each and every character in each node.
+
+How it looks like:
+
+    it contains a root node and multiple child node,each child node
+contains each alphabetical characters in child node.
